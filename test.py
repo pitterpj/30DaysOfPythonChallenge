@@ -1,4 +1,7 @@
 
-my_variable = "Esto es una variable"
-print(my_variable)
+### Operadores de Comparación en Python ###
 
+print("Hola">="Hola") # ?
+print("Hola">="Iola") # ?
+print("Hola">="Gola") # ?
+print("Hola">="hola") # ?

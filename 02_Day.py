@@ -29,4 +29,5 @@ radius= 30
 area_of_circle = math.pi * radius**2
 # Calculate the circumference of a circle and assign the value to a variable name of circum_of_circle
 circum_of_circle = math.pi * (radius*2)
+# Run help('keywords') in Python shell or in your file to check for the Python reserved words or keywords
 print(help('keywords'))
