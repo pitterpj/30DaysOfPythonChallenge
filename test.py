@@ -1,7 +1,7 @@
+### List ###
 
-### Operadores de Comparación en Python ###
+my_list=list()
+print(type(my_list))
 
-print("Hola">="Hola") # ?
-print("Hola">="Iola") # ?
-print("Hola">="Gola") # ?
-print("Hola">="hola") # ?
+my_tupla=()
+print(type(my_tupla))
