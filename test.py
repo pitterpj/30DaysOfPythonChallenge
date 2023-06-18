@@ -1,16 +1,20 @@
-### SETS ###
+### DICCIONARIOS ###
 
-my_set = set()
-my_other_set={}
+my_dict = dict()
 
-my_other_set = ['Pitter','Pan',29] # Lista
-my_other_set = ('Pitter','Pan',29) # Tupla 
-my_other_set = {'Pitter','Pan',29} # Set
+my_dict = {
+    'name':'Pitter', 
+    'surname':'Pan',
+    'age':35,
+      1:'loco',
+      'lenguages': ['python','sql','kotlin'],
+      'borrar':'borrando...'
+      }
 
-my_other_set.add("revampedpj")
-print(my_other_set)
+del my_dict['borrar']
 
-print("Pitter" in my_other_set)
-print("Pittera" in my_other_set)
-my_other_set.remove('Pitter')
-print(my_other_set)
+
+
+print(my_dict)
+print('name' in my_dict)
+
