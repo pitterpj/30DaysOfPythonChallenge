@@ -1,25 +1,24 @@
-### CONDICIONALES ###
+### BUCLES / LOOPS ###
 
-my_condition = True
+my_condition = 0
+# While
 
-# if my_condition: 
-#     print("Se ejecuta la condición del if")
-
-# if my_condition == True: 
-#     print("Se ejecuta la condición del if")
-
-# my_condition = 5 * 1
-
-# if my_condition == 10:
-#     print("ES IGUAL")
-# elif my_condition > 10:
-#   print("ES MAYOR")
-
+# while my_condition < 10:
+#     print(my_condition)
+#     my_condition += 1
 # else:
-#     print("ES MENOR")
+#     print("Pues entra en el ELSE")
 
+# print("El print de después")
 
-my_string = "llena"
+# while my_condition < 20:
+#    my_condition += 1
+#    if my_condition == 15:
+#        print("mi condicion ES IGUAL a 15")
+#        break
+#    print(my_condition)
 
-if my_string:
-   print("cadena de texto ya no esta vacía")
+my_list = [23,76,56,9,554,42,21]
+
+for element in my_list:
+    print(element)
