@@ -1,6 +1,16 @@
-### FUNCIONES ###
+### CLASES ###
 
-def sum_num (a,b):
-    return (a+b)
+class Person: 
+    def __init__(self, name, surname):
+        self.full_name = f"{name} {surname}"
+    
+    def walk (self):
+        print(f"{self.full_name} está caminando")
 
-sum_num(4,5)
+
+
+
+my_person = Person('Julian', 'Rodriguez')
+print(my_person.full_name)
+
+my_person.walk()
