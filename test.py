@@ -1,14 +1,27 @@
-#### Excepction Handling ###
-# Exercises - Day 14
-# Día 14 - 30DaysOfPythonChallenge
+### DATES ###
 
-# 💻Exercises: Day 14
-names = ['Finland', 'Sweden', 'Norway','Denmark','Iceland', 'Estonia','Russia']
-# . Unpack the first five countries and store them in a variable nordic_countries, store Estonia and Russia in es, and ru respectively.
-fin,sw,nor,den,ice,*rest=names
-nordic_countrie = fin,sw,nor,den,ice
-es,ru=rest
-print(nordic_countrie)
-print(es)
-print(ru)
-# 🎉 CONGRATULATIONS ! 🎉
+from datetime import datetime
+
+now = datetime.now()
+
+def print_date(date):
+    print(date.hour)
+    print(date.day)
+    print(date.min)
+    print(date.minute)
+    print(date.year)
+    print(date.month)
+
+#print_date(now)
+
+year_2023 = datetime(2023,1,1)
+
+
+#print_date(year_2023)
+
+from datetime import time
+
+current_time =  time()
+
+print(current_time.max)
+
