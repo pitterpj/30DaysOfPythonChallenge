@@ -1,27 +1,6 @@
-### DATES ###
+### list_comprehension ###
 
-from datetime import datetime
+my_orginal_list = [23, 45, 56, 67, 88, 89, 99]
 
-now = datetime.now()
-
-def print_date(date):
-    print(date.hour)
-    print(date.day)
-    print(date.min)
-    print(date.minute)
-    print(date.year)
-    print(date.month)
-
-#print_date(now)
-
-year_2023 = datetime(2023,1,1)
-
-
-#print_date(year_2023)
-
-from datetime import time
-
-current_time =  time()
-
-print(current_time.max)
-
+my_list = [i for i in range(1, 8)]
+print(my_list)
