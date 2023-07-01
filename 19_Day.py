@@ -1,5 +1,9 @@
+# Exercises - Day 19
+# Día 19 - 30DaysOfPythonChallenge
 ### Error Type ###
 
+# 💻 Exercises: 
+# Open you python interactive shell and try all the examples covered in this section.
 ### SyntaxError
 #? print 'Hola community'
 
@@ -32,5 +36,4 @@ student = {'first_name':'student1','last_name':'last_name_student','gender':'mas
 
 ### ZeroDivisionError
 #? print(4/0)
-
-
+# 🎉 CONGRATULATIONS ! 🎉
