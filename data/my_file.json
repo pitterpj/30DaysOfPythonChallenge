@@ -1,0 +1,10 @@
+{
+    "Nombre": "Pitter",
+    "Apellido": "Chanchito",
+    "Edad": 29,
+    "Calle": {
+        "Direccion": "Falsa",
+        "N": 123,
+        "C.P.": 10910
+    }
+}
