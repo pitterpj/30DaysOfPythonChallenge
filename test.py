@@ -1,47 +1,27 @@
-### File handing ###
+### Regular Expressions ###
 
+import re
 
-# .txt file
-import os
+my_string = "Esta es la lección número 7: Lección, llamada Expresiones regulares"
+my_other_string = "Esta no es la lección número 6: Manejo de ficheros"
 
-txt_file = open("my_file.txt", "w+")
-txt_file.write("\nMy name is Pitter\n Chanchito Feliz\n Tengo 29 años\nMy lenguaje preferido es Python")
+# match = re.match("Esta es la lección", my_string, re.I)
+# start, end = match.span()
+# print(match)
+# print(start)
+# print(end)
 
-print(txt_file.readline())
-txt_file.write("\nAñado una linea nueva")
+# print(re.match("Esta es la lección", my_other_string))
+# print(re.match("Expresiones regulares", my_string))
 
-for line in txt_file.readlines():
-    print(line)
+search = re.search("es la lección", my_string, re.I)
+print(search)
+start, end = search.span()
+print(start)
+print(end)
 
-txt_file.write("\n Other line")
+findall = re.findall("lección", my_string, re.I)
+print(findall)
 
-print(txt_file.readline())
-
-txt_file.close()
-
-#os.remove("my_file.txt")
-
-
-### JSON
-
-import json
-
-json_file = open("data/my_file.json", "w+")
-
-json_test = {
-    "Nombre": "Pitter",
-    "Apellido": "Chanchito",
-    "Edad": 29,
-    "Calle": {"Direccion": "Falsa", "N":  123, "C.P.": 10910}
-    }
-
-json.dump(json_test, json_file, indent = 4)
-
-json_file.close()
-
-# with open("data/my_file.json") as chanchito:
-#     for line in chanchito.readlines():
-#         print(line)
-
-json_dict = json.load(open("data/my_file.json"))
-print(type(json_dict))
+split = re.split(":",my_string)
+print(split)
